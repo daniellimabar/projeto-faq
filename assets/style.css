@@ -11,26 +11,65 @@
 - Dark purple: hsl(292, 42%, 14%)
 */
 
+@font-face {
+    font-family: 'WorkSans';
+    src: url(fonts/WorkSans-VariableFont_wght.ttf) format('opentype');
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'WorkSans';
 }
-
-body{
+body, html{
     background-image: url(images/background-pattern-mobile.svg);
     background-repeat: no-repeat;
     background-color: rgb(249, 240, 255);
-}   
+}
 
-section {
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
     
-}   
 
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    padding: 25px;
+    border-radius: 7px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+
+    font-weight: bold;
+    color: rgb(47, 21, 51);
+   
+}
+
+.questions{
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 16px;
+    box-shadow:  0px 2px .8px rgba(0, 0, 0, 0.087);
+    padding: 15px 0px;
     
+}
 
+.questions > p {
+    width: 220px;
+}
 
+div > h1 {
 
-
+    font-size: 30px;
+}
 
 footer { font-size: 11px; text-align: center; }
 footer > a { color: hsl(228, 45%, 44%); }
