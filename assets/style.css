@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*
+- Mobile: 375px
+- Desktop: 1440px
+
+-----------colors------------
+- White: hsl(0, 0%, 100%)
+- Light pink: hsl(275, 100%, 97%)
+- Grayish purple: hsl(292, 16%, 49%)
+- Dark purple: hsl(292, 42%, 14%)
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/background-pattern-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: rgb(249, 240, 255);
+}   
+
+section {
+    
+}   
+
+    
+
+
+
+
+
+footer { font-size: 11px; text-align: center; }
+footer > a { color: hsl(228, 45%, 44%); }
