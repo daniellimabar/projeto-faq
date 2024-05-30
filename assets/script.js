@@ -2,6 +2,7 @@ function acao1(){
     let duvida1 = window.document.getElementById('quest1')
     let resp = window.document.getElementsByClassName('resp')[0]
     let icon = window.document.getElementsByClassName('icon')[0]
+    
     if(resp.style.display == 'none'){
         icon.src = 'assets/images/icon-minus.svg'
         resp.style.display = 'block'
