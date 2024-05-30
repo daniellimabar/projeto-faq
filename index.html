@@ -10,41 +10,65 @@
 
 </head>
 <body>
-    <main>
-        <div>
-            <i><img src="assets/images/icon-star.svg" alt=""></i>
-            <h1>FAQs</h1>
-        </div>
-        <div class="questions">
-            <p>
-                What is Frontend Mentor, and how will it help me?
-            </p>
-            <i><img src="assets/images/icon-plus.svg" alt=""></i>
-        </div>
-        <div class="questions">
-            <p>
-                Is Frontend Mentor free?
-            </p>
-            <i><img src="assets/images/icon-plus.svg" alt=""></i>
-        </div>
-        <div class="questions">
-            <p>
-                Can I use Frontend Mentor projects in my portfolio?
-            </p>
-            <i><img src="assets/images/icon-plus.svg" alt=""></i>
-        </div>
-        <div class="questions">
-            <p>
-                How can I get help if I'm stuck on a challenge?
-             </p>
-            <i><img src="assets/images/icon-plus.svg" alt=""></i>
-        </div>
-    </main>
+    <article>
+        <section>
+            <div id="title">
+                <h1>FAQs</h1>
+                <i><img src="assets/images/icon-star.svg" alt="icon-stars"></i>
+            </div>
+            <div class="questions" id="quest1" onclick="acao1()">
+                <p class="textQ">
+                    What is Frontend Mentor, and how will it help me?
+                </p>
+                <i>
+                    <img src="assets/images/icon-plus.svg" alt="icon-plus" class="icon">
+                </i>
+                <p class="resp">
+                    Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript, it's suitable for all levels and ideal for portfolio building.
+                </p>
+            </div>
+            <div class="questions" id="quest2" onclick="acao2()">
+                <p class="textQ">
+                    Is Frontend Mentor free?
+                </p>
+                <i>
+                    <img src="assets/images/icon-plus.svg" alt="icon-plus" class="icon">
+                </i>
+                <p class="resp">
+                    Yes, Frontend Mentor offers both free and paid plans. You can access a variety of challenges and resources for free, but there are also premium features and challenges that require a paid subscription.
+                </p>
+            </div>
+            <div class="questions" id="quest3" onclick="acao3()">
+                <p class="textQ">
+                    Can I use Frontend Mentor projects in my portfolio?
+                </p>
+                <i>
+                    <img src="assets/images/icon-plus.svg" alt="icon-plus" class="icon">
+                </i>
+                <p class="resp">
+                    You can use Frontend Mentor projects in your portfolio. Just make sure to credit Frontend Mentor and highlight your own work and any customizations you've made.
+                </p>
+            </div>
+            <div class="questions" id="quest4" onclick="acao4()" >
+                <p class="textQ">
+                    How can I get help if I'm stuck on a challenge?
+                </p>
+                <i>
+                    <img src="assets/images/icon-plus.svg" alt="icon-plus" class="icon">
+                </i>
+                <p class="resp">
+                    Seek help from the Frontend Mentor community, such as Slack or forums. Carefully read the challenge instructions and requirements. Analyze the provided design details. Explore solutions from other developers for inspiration. Share your code and ask for specific feedback. Utilize online resources like MDN Web Docs, CSS-Tricks, and freeCodeCamp. Break down the problem into smaller parts for easier resolution. If needed, take a break and come back to the challenge with a fresh perspective.
+                </p>
+            </div>
+        </section>
+    </article>
     <footer>
         <p>
             Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="#">Your Name Here</a>.
+            Coded by <a href="#">Daniel Lima</a>.
         </p>
     </footer>
+
+    <script src="assets/script.js"></script>
 </body>
 </html>
