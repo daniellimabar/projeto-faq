@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px){
+    section{
+        width: 300px;
+    }
+
+    div > p.textQ{
+        padding-right: 30px;
+    }
+
+    div.questions{
+        flex-wrap: nowrap;
+    }
+}
