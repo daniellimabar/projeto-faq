@@ -6,10 +6,11 @@
     }
 
     div > p.textQ{
-        padding-right: 30px;
+        padding-right: 10px;
+        width: 200px;
     }
 
     div.questions{
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
 }
